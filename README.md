@@ -33,9 +33,9 @@ $ npm start
 
 ``` json
 {
-  "textoAnalizado": <string>,
-  "sentimento": <score_e_label_sentimento>,
-  "entidades": <entidades_e_sentimentos>,
-  "palavrasChave": <palavras_chave_e_sentimentos>,
+  "textoAnalizado": string enviada para análise,
+  "sentimento": objeto com score (-1 até 1) e label (positivo ou negativo),
+  "entidades": array com as entidades e sentimentos relacionados a elas,
+  "palavrasChave": array de palavras chaves, relevancia, e sentimento relacionados a elas
 }
 ```
