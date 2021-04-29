@@ -28,3 +28,14 @@ $ npm start
   "texto": "string para ser analizada"
 }
 ```
+
+<h2>Retorno</h2>
+
+``` json
+{
+  "textoAnalizado": <string>,
+  "sentimento": <score_e_label_sentimento>,
+  "entidades": <entidades_e_sentimentos>,
+  "palavrasChave": <palavras_chave_e_sentimentos>,
+}
+```
